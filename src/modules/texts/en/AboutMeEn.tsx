@@ -1,0 +1,3 @@
+export const aboutMeTextEn = `
+Developer and Data Scientist with experience in omics (metagenomics, metatranscriptomics) and statistical analyses for research, working in Linux environments and large-scale (Big Data) datasets. I served as the bioinformatics, statistics, and figure lead on three manuscripts submitted to international journals, including one as first author on climate change and microbial plastic degradation. Focused on deepening my software and data engineering skills (backend and databases), while maintaining a focus on computational solutions and application development that address real-world problems.
+`;

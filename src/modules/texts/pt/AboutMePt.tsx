@@ -1,0 +1,3 @@
+export const aboutMeText = `
+Desenvolvedor e Cientista de dados com experiência em ômicas (metagenoma, metatranscriptoma) e análises estatísticas para pesquisa, operando em ambientes Linux e dados em larga escala (Big Data). Atuei como responsável pela bioinformática, estatística e figuras em três manuscritos submetidos a periódicos internacionais, incluindo um como primeiro autor sobre mudanças climáticas e degradação microbiana de plásticos. Focado em aprofundar engenharia de software e dados (backend e bases de dados), mantendo foco em soluções computacionais e desenvolvimento de aplicações que respondam problemas reais
+`;

@@ -1,0 +1,31 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+@import "tailwindcss";
+@layer theme, base, components, utilities, theme;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* colors and global parameters for tailwind*/
+:root {
+    --primary-font: Fraunces;
+
+    --primary-color: #010101;
+    --secondary-color: #221F55;
+
+    --typing-animation: typing 3.5s steps(40, end) forwards,
+         blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
