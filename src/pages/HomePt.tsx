@@ -49,7 +49,7 @@ export default function HomePt() {
             <div>
               <div className='m-10 wrap-normal w-fit'>
                   <h1 className='pb-3 flex gap-3 text-3xl font-[--primary-font] text-white font-bold
-                '>Educatication<FaUniversity size={30}/></h1>
+                '>Formação<FaUniversity size={30}/></h1>
                 <Education lang="pt"></Education>
               </div>
               <div className='m-10 wrap-normal w-fit'>
