@@ -10,15 +10,16 @@ import Skills from '../modules/ui/Skills';
 import FindMeBlock from '../modules/ui/blocks/FindMeBlock';
 import AboutMeBlockEn from '../modules/ui/blocks/AboutMeBlockEn';
 import Education from '../modules/ui/Education';
+import { Link } from 'react-router-dom';
 
 export default function HomePt() {
   return (
     <div className='h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth'>
       <div className='snap-start min-h-screen bg-cover bg-linear-to-t from-[#221F55]
        to-[#010101] flex flex-col'>
-          <a href='/'>
+          <Link to='/'>
             <ButtonTranslate text=""></ButtonTranslate>
-          </a>
+          </Link>
           <EnBillboard></EnBillboard>
           <AboutMeBlockEn></AboutMeBlockEn>
           <div className='mt-auto flex justify-center pb-6'>

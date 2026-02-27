@@ -10,15 +10,16 @@ import { RiArticleLine } from "react-icons/ri";
 import Skills from '../modules/ui/Skills';
 import FindMeBlock from '../modules/ui/blocks/FindMeBlock';
 import Education from '../modules/ui/Education';
+import { Link } from 'react-router-dom';
 
 export default function HomePt() {
   return (
     <div className='h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth'>
       <div className='snap-start min-h-screen bg-cover bg-linear-to-t from-[#221F55]
        to-[#010101] flex flex-col'>
-          <a href='/en'>
+          <Link to='/en'>
             <ButtonTranslate text=""></ButtonTranslate>
-          </a>
+          </Link>
           <PtBillboard></PtBillboard>
           <AboutMeBlock></AboutMeBlock>
           <div className='mt-auto flex justify-center pb-6'>
