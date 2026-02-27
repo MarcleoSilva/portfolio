@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 
 export default function HomePt() {
   return (
-    <div className='h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth'>
+    <div className='h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth'>
       <div className='snap-start min-h-screen bg-cover bg-linear-to-t from-[#221F55]
        to-[#010101] flex flex-col'>
           <Link to='/en'>
@@ -27,7 +27,7 @@ export default function HomePt() {
           </div>
       </div>
       <div className='h-screen snap-start bg-cover bg-linear-to-t to-[#221F55]
-       from-[#010101] flex flex-col overflow-scroll'>
+       from-[#010101] flex flex-col overflow-auto'>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
           <div>
               <div className='m-10'>
