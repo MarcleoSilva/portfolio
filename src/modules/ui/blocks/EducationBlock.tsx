@@ -28,7 +28,7 @@ export default function EducationBlcok({title, subtitle, bullets}:
     <div
       ref={ref}
       className={[
-        "text-white font-[--primary-font] border-l-4 pl-5 mt-2",
+        "text-white font-[var(--primary-font)] border-l-4 pl-5 mt-2",
         "transition-all duration-900 ease-out",
         visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2",
       ].join(" ")}

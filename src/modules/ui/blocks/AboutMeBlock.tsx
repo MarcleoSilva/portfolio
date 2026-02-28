@@ -17,7 +17,7 @@ export default function AboutMeBlock() {
             ${isOpen ? "opacity-100 max-h-125 translate-y-0 overflow-auto sm:max-h-100" : "opacity-0 max-h-0 -translate-y-2"}
           `}
         >
-          <p className="text-white font-[--primary-font] text-center md:text-[20px]">
+          <p className="text-white font-[var(--primary-font)] text-center md:text-[20px]">
             {aboutMeText}
           </p>
         </div>

@@ -42,7 +42,7 @@ export default function FindMeBlock()
           <a href="./CV-Marcleo-Fullstack.pdf"><ButtonCV text=""></ButtonCV></a>
         </div>
         <div className="grid grid-cols-2 justify-left pt-10 text-white
-        font-[--primaryfont] text-[20px]">
+        font-[var(--primary-font)] text-[20px]">
           
           <p className="flex gap-2">
             <IoLocationSharp size={25} color="white"/>Salvador, BA, Brasil

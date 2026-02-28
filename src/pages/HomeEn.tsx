@@ -31,30 +31,30 @@ export default function HomePt() {
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
           <div>
               <div className='m-10'>
-                <h1 className='pb-3 flex gap-3 text-3xl font-[--primary-font] text-white font-bold
+                <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
               '>Publications<RiArticleLine  size={36}/></h1>
               <Publications lang="en"></Publications>
             </div>
             <div className='m-10 wrap-normal w-fit'>
-                <h1 className='pb-3 flex gap-3 text-3xl font-[--primary-font] text-white font-bold
+                <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
               '>Experience<FaCode size={30}/></h1>
               <Qualifications lang="en"></Qualifications>
             </div>
           </div>
             <div className='m-10 wrap-normal w-fit'>
-                <h1 className='pb-3 flex gap-3 text-3xl font-[--primary-font] text-white font-bold
+                <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
               '>Skills<FaToolbox size={30}/></h1>
               <Skills lang="en"></Skills>
             </div>
             <div>
               <div className='m-10 wrap-normal w-fit'>
-                  <h1 className='pb-3 flex gap-3 text-3xl font-[--primary-font] text-white font-bold
+                  <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
                 '>Educatication<FaUniversity size={30}/></h1>
                 <Education lang="en"></Education>
               </div>
 
               <div className='m-10 wrap-normal w-fit'>
-                  <h1 className='pb-3 flex gap-3 text-3xl font-[--primary-font] text-white font-bold
+                  <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
                 '>Where to find me?</h1>
                 <FindMeBlock></FindMeBlock>
               </div>
