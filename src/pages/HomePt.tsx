@@ -30,16 +30,17 @@ export default function HomePt() {
        from-[#010101] flex flex-col overflow-auto'>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
           <div>
+              <div className='m-10 wrap-normal w-fit'>
+                <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
+              '>Experiência<FaCode size={30}/></h1>
+              <Qualifications lang="pt"></Qualifications>
+            </div>
               <div className='m-10'>
                 <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
               '>Publicações<RiArticleLine  size={36}/></h1>
               <Publications lang="pt"></Publications>
             </div>
-            <div className='m-10 wrap-normal w-fit'>
-                <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
-              '>Experiência<FaCode size={30}/></h1>
-              <Qualifications lang="pt"></Qualifications>
-            </div>
+
           </div>
             <div className='m-10 wrap-normal w-fit'>
                 <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold

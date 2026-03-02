@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { ButtonCV, ButtonGitHub, ButtonLinkedin } from "./Button";
+import { ButtonCV, ButtonGitHub, ButtonLinkedin, ButtonMail } from "./Button";
 import { IoLocationSharp } from "react-icons/io5";
 
 export default function FindMeBlock()
@@ -40,6 +40,7 @@ export default function FindMeBlock()
           <a href="https://www.linkedin.com/in/marcelo-araujo-s/"><ButtonLinkedin text="">
           </ButtonLinkedin></a>
           <a href="./CV-Marcleo-Fullstack.pdf"><ButtonCV text=""></ButtonCV></a>
+          <a href="mailto:marceloaraujosilva739@gmail.com"><ButtonMail text=""></ButtonMail></a>
         </div>
         <div className="grid grid-cols-2 justify-left pt-10 text-white
         font-[var(--primary-font)] text-[20px]">

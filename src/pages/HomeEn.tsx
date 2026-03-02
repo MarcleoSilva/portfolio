@@ -30,15 +30,15 @@ export default function HomePt() {
        from-[#010101] flex flex-col overflow-scroll'>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
           <div>
-              <div className='m-10'>
-                <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
-              '>Publications<RiArticleLine  size={36}/></h1>
-              <Publications lang="en"></Publications>
-            </div>
             <div className='m-10 wrap-normal w-fit'>
                 <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
               '>Experience<FaCode size={30}/></h1>
               <Qualifications lang="en"></Qualifications>
+            </div>
+              <div className='m-10'>
+                <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
+              '>Publications<RiArticleLine  size={36}/></h1>
+              <Publications lang="en"></Publications>
             </div>
           </div>
             <div className='m-10 wrap-normal w-fit'>
@@ -49,7 +49,7 @@ export default function HomePt() {
             <div>
               <div className='m-10 wrap-normal w-fit'>
                   <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
-                '>Educatication<FaUniversity size={30}/></h1>
+                '>Education<FaUniversity size={30}/></h1>
                 <Education lang="en"></Education>
               </div>
 

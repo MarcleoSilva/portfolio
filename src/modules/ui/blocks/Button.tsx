@@ -1,5 +1,6 @@
 import { BsTranslate } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { IoMail } from "react-icons/io5";
 import { SiReaddotcv } from "react-icons/si";
 
 export function ButtonText({text}:{text:string}){
@@ -44,5 +45,14 @@ export function ButtonCV({text}:{text:string}){
          hover:bg-[#1B1843] font-[var(--primary-font)] rounded-[100px] shadow-sm 
          hover:shadow-lg w-fit h-fit p-4 sm:p-3 cursor-pointer
          ">{text} <SiReaddotcv /></div>
+    )
+}
+
+export function ButtonMail({text}:{text:string}){
+    return(
+        <div className="text-white text-2xl sm:text-2xl bg-[#393389]
+         hover:bg-[#1B1843] font-[var(--primary-font)] rounded-[100px] shadow-sm 
+         hover:shadow-lg w-fit h-fit p-4 sm:p-3 cursor-pointer
+         ">{text} <IoMail /></div>
     )
 }
