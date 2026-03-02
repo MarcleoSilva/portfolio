@@ -2,8 +2,12 @@ import { useEffect, useRef, useState } from "react";
 import { ButtonCV, ButtonGitHub, ButtonLinkedin, ButtonMail } from "./Button";
 import { IoLocationSharp } from "react-icons/io5";
 
-export default function FindMeBlock()
+export default function FindMeBlock({lang}:{lang:"pt"|"en"})
  {
+  const PtCV = "./CV_Marcelo_FullstackPt.pdf"
+  const EnCV = "./CV_Marcelo_FullstackEn.pdf"
+
+  const language = lang === "pt" ? PtCV : EnCV;
   const ref = useRef<HTMLDivElement | null>(null);
   const [visible, setVisible] = useState(false);
 
@@ -39,7 +43,7 @@ export default function FindMeBlock()
           </ButtonGitHub> </a>
           <a href="https://www.linkedin.com/in/marcelo-araujo-s/"><ButtonLinkedin text="">
           </ButtonLinkedin></a>
-          <a href="./CV-Marcleo-Fullstack.pdf"><ButtonCV text=""></ButtonCV></a>
+          <a href={language}><ButtonCV text=""></ButtonCV></a>
           <a href="mailto:marceloaraujosilva739@gmail.com"><ButtonMail text=""></ButtonMail></a>
         </div>
         <div className="grid grid-cols-2 justify-left pt-10 text-white

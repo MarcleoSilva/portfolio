@@ -56,7 +56,7 @@ export default function HomePt() {
               <div className='m-10 wrap-normal w-fit'>
                   <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
                 '>Where to find me?</h1>
-                <FindMeBlock></FindMeBlock>
+                <FindMeBlock lang='en'></FindMeBlock>
               </div>
             </div>
         </div>
