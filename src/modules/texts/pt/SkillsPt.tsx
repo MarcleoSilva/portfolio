@@ -13,7 +13,7 @@ const frameworks = {
 }
 
 const toolsplatforms = {
-    field: "Tools & Platforms",
+    field: "Ferramentas",
     skills: [
         "Git","GitHub","PostgreSQL", "Docker"
     ]
