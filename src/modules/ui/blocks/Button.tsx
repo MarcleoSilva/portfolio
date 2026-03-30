@@ -17,7 +17,7 @@ export function ButtonTranslate({text}:{text:string}){
         <div className="text-white text-2xl sm:text-2xl bg-[#393389]
          hover:bg-[#1B1843] font-[var(--primary-font)] rounded-[100px] shadow-sm 
          hover:shadow-lg w-fit h-fit p-4 sm:p-5 fixed right-5 bottom-2 cursor-pointer
-         ">{text} <BsTranslate /></div>
+         z-1000">{text} <BsTranslate /></div>
     )
 }
 

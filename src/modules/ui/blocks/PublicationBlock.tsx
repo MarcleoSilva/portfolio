@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
-export default function PublicationBlock({title, subtitle, bullets}:
-    {title: string;bullets: string[]; subtitle: string})
+export default function PublicationBlock({title, subtitle, bullets, link}:
+    {title: string;bullets: string[]; subtitle: string; link: string})
  {
   const ref = useRef<HTMLDivElement | null>(null);
   const [visible, setVisible] = useState(false);
@@ -36,7 +36,7 @@ export default function PublicationBlock({title, subtitle, bullets}:
         <div className="before:border-2 before:bg-blue-950 before:border-white before:rounded-2xl before:size-6 before:absolute
         before:-left-3.5"></div>
       <h1 className="text-1xl font-bold">{title}</h1>
-      <h2 className="text-1xl font-normal">{subtitle}</h2>
+      <h2 className="text-1xl font-normal"><a target="__blank" href={link}>{subtitle}</a></h2>
       <ul className="list-disc pt-3 text-1xl font-thin">
         {bullets.map((b, i) => (
           <li key={i}>{b}</li>

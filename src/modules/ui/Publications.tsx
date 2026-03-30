@@ -11,7 +11,7 @@ export default function Publications( {lang}:{lang:"pt" | "en"}){
         <>
             {experiences.map((exp) =>
         <PublicationBlock key={exp.title}  title={exp.title} subtitle={exp.doi} 
-        bullets={exp.participation}>
+        bullets={exp.participation} link={exp.link}>
 
         </PublicationBlock>
         )}
