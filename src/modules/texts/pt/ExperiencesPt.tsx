@@ -4,8 +4,7 @@ const biomeLab = {
     work: [
         "Controle de qualidade de 2.650+ amostras em servidores Linux",
         "Desenvolvi pacotes em linha de comando (CLI) modulares em Python",
-        "Conduzi análises estatísticas e figuras para validação e comunicação científica",
-        "Uso de Conda e Docker para portabilidade entre máquinas e servidores"
+        "Conduzi análises estatísticas e figuras para validação e comunicação científica"
     ]
 }
 

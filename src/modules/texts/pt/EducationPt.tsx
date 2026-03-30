@@ -2,11 +2,8 @@ const biology = {
     field: "Ciências Biológicas",
     uni: "Universidade Federal da Bahia",
     skills: [
-        "Ciência de dados",
-        "BigData",
-        "Estatística",
-        "Publicação científica",
-        "Figuras para tomada de decisão",
+        "Ciência de dados e Publicação científica",
+        "BigData e estatística",
 
     ]
 }
@@ -16,8 +13,7 @@ const cs = {
     uni: "Universidade Jorge Amado (em progresso)",
     skills: [
         "Banco de dados",
-        "Redes",
-        "Protocolos",
+        "Redes e Protocolos",
 
     ]
 }

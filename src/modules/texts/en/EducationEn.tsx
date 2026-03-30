@@ -2,11 +2,8 @@ const biology = {
     field: "BSc. in Biology",
     uni: "Federal University of Bahia, Brazil",
     skills: [
-        "Data Science",
-        "Big Data",
-        "Statistics",
-        "Scientific Publication",
-        "Figures for decision making",
+        "Data Science & Scientific Publication",
+        "Big Data & Statistics",
 
     ]
 }
@@ -16,8 +13,7 @@ const cs = {
     uni: "Jorge Amado University (in progress)",
     skills: [
         "Databases",
-        "Computer network",
-        "Protocols",
+        "Computer network and Protocols",
 
     ]
 }
