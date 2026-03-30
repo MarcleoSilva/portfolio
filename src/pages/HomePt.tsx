@@ -2,7 +2,7 @@ import '../App.css';
 import AboutMeBlock from '../modules/ui/blocks/AboutMeBlock';
 import { PtBillboard } from '../modules/ui/Billboard';
 import {  ButtonTranslate} from '../modules/ui/blocks/Button';
-import { FaArrowDown, FaToolbox, FaUniversity } from "react-icons/fa";
+import { FaArrowDown, FaProjectDiagram, FaToolbox, FaUniversity } from "react-icons/fa";
 import Qualifications from '../modules/ui/Qualifications';
 import { FaCode } from "react-icons/fa";
 import Publications from '../modules/ui/Publications';
@@ -11,6 +11,7 @@ import Skills from '../modules/ui/Skills';
 import FindMeBlock from '../modules/ui/blocks/FindMeBlock';
 import Education from '../modules/ui/Education';
 import { Link } from 'react-router-dom';
+import Projects from '../modules/ui/Projects';
 
 export default function HomePt() {
   return (
@@ -30,15 +31,15 @@ export default function HomePt() {
        from-[#010101] flex flex-col overflow-auto'>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
           <div>
-              <div className='m-10 wrap-normal w-fit'>
+            <div className='m-10 wrap-normal w-fit'>
                 <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
-              '>Experiência<FaCode size={30}/></h1>
+              '>Experiência<FaCode size={30} className='transform translate-y-[5px]'/></h1>
               <Qualifications lang="pt"></Qualifications>
             </div>
-              <div className='m-10'>
-                <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
-              '>Publicações<RiArticleLine  size={36}/></h1>
-              <Publications lang="pt"></Publications>
+            <div className='m-10 wrap-normal w-fit'>
+              <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
+              '>Projetos<FaProjectDiagram size={30} className='transform translate-y-1.75'/></h1>
+              <Projects lang='pt'></Projects>
             </div>
 
           </div>
@@ -53,14 +54,20 @@ export default function HomePt() {
                 '>Formação<FaUniversity size={30}/></h1>
                 <Education lang="pt"></Education>
               </div>
+              <div className='m-10'>
+                <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
+              '>Publicações<RiArticleLine  size={36}/></h1>
+              <Publications lang="pt"></Publications>
+            </div>
               <div className='m-10 wrap-normal w-fit'>
                   <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
                 '>Onde me achar?</h1>
                 <FindMeBlock lang='pt'></FindMeBlock>
               </div>
               </div>
+              
         </div>
-
+        
       </div>
         
       </div>
