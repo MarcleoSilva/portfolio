@@ -1,6 +1,6 @@
 import '../App.css';
-import AboutMeBlock from '../modules/ui/blocks/AboutMeBlock';
-import { PtBillboard } from '../modules/ui/Billboard';
+import AboutMeBlockEn from '../modules/ui/blocks/AboutMeBlockEn';
+import { EnBillboard } from '../modules/ui/Billboard';
 import {  ButtonTranslate} from '../modules/ui/blocks/Button';
 import { FaArrowDown, FaProjectDiagram, FaToolbox, FaUniversity } from "react-icons/fa";
 import Qualifications from '../modules/ui/Qualifications';
@@ -21,8 +21,8 @@ export default function HomeEn() {
           <Link to='/'>
             <ButtonTranslate text=""></ButtonTranslate>
           </Link>
-          <PtBillboard></PtBillboard>
-          <AboutMeBlock></AboutMeBlock>
+          <EnBillboard></EnBillboard>
+          <AboutMeBlockEn></AboutMeBlockEn>
           <div className='mt-auto flex justify-center pb-6'>
             <FaArrowDown color='white' size={40}/>
           </div>
