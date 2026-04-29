@@ -1,21 +1,15 @@
-const tech = {
-    field: "Linguagens de Programção",
-    skills: [
-        "Python","Java","JavaScript/Typescriot", "R", "HTML & CSS"
-    ]
-}
 
 const frameworks = {
-    field: "Frameworks",
+    field: "Frameworks e Linguagens",
     skills: [
-        "React","Spring Boot","Electron",
+        "React, HTML & CSS para Frontend","Spring Boot & Java para Backend","NestJS & JavaScript/Typescript",
     ]
 }
 
 const toolsplatforms = {
     field: "Ferramentas",
     skills: [
-        "GitHub","PostgreSQL", "Docker"
+        "GitHub","PostgreSQL", "Docker", "Node.js", "Prisma ORM"
     ]
 }
 
@@ -27,7 +21,7 @@ const softskills = {
 }
 
 export const SkillsPt =[
-    tech,frameworks, toolsplatforms,softskills
+    frameworks, toolsplatforms,softskills
     
 
 ]
