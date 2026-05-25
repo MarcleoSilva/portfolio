@@ -12,6 +12,8 @@ import FindMeBlock from '../modules/ui/blocks/FindMeBlock';
 import Education from '../modules/ui/Education';
 import { Link } from 'react-router-dom';
 import Projects from '../modules/ui/Projects';
+import Achievements from '../modules/ui/Achievements';
+import { FaTrophy } from 'react-icons/fa';
 
 export default function HomePt() {
   return (
@@ -43,11 +45,18 @@ export default function HomePt() {
             </div>
 
           </div>
+          <div>
             <div className='m-10 wrap-normal w-fit'>
                 <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
               '>Habilidades<FaToolbox size={30}/></h1>
               <Skills lang="pt"></Skills>
             </div>
+            <div className='m-10 wrap-normal w-fit'>
+              <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
+              '>Conquistas<FaTrophy size={28} className='transform translate-y-[3px]'/></h1>
+              <Achievements lang='pt'></Achievements>
+            </div>
+          </div>
             <div>
               <div className='m-10 wrap-normal w-fit'>
                   <h1 className='pb-3 flex gap-3 text-3xl font-[var(--primary-font)] text-white font-bold
