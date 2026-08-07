@@ -8,17 +8,24 @@ const biomeLab = {
     ]
 }
 
-const titan = {
+const titanTrainee = {
     role: "Trainee - Backend Dev",
-    place: "TITAN (2026-Present)",
+    place: "TITAN (2026 April - July)",
     work: [
         "NodeJS, NestJS, API, Git & GitHub"
     ]
 }
 
+const titan = {
+    role: "Backend Dev - Part time",
+    place: "TITAN (July 2026 - Present)",
+    work: [
+        "NodeJS, NestJS, API, Git & GitHub"
+    ]
+}
 
 export const ProfessionalExperiencesEn =[
-    titan, biomeLab,
+    titan, titanTrainee, biomeLab,
 
 
 ]
