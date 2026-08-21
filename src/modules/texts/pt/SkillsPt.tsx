@@ -16,7 +16,7 @@ const toolsplatforms = {
 const softskills = {
     field: "Soft Skills",
     skills: [
-        "Adaptabilidade","Resolvedor de problemas","Curiosidade e foco", "Comunicação clara"
+        "Adaptabilidade e Resolução de Problemas","Curiosidade e foco", "Comunicação clara"
     ]
 }
 
