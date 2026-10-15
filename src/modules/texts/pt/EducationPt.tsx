@@ -9,8 +9,8 @@ const biology = {
 }
 
 const cs = {
-    field: "Ciência da Computação",
-    uni: "Universidade Jorge Amado (em progresso)",
+    field: "Sistemas de Informação",
+    uni: "Universidade do Estado da Bahia (em progresso)",
     skills: [
         "Banco de dados",
         "Redes e Protocolos",

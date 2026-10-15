@@ -9,8 +9,8 @@ const biology = {
 }
 
 const cs = {
-    field: "BSc. in Computer Science",
-    uni: "Jorge Amado University (in progress)",
+    field: "BSc. in Information Systems",
+    uni: "State University of Bahia (in progress)",
     skills: [
         "Databases",
         "Computer network and Protocols",
