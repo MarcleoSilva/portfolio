@@ -12,6 +12,13 @@ const toolsplatforms = {
     ]
 }
 
+const security = {
+    field: "Security",
+    skills: [
+        "Cryptography", "Digital Forensics", "Data Privacy & Protection (GDPR/LGPD)"
+    ]
+}
+
 const softskills = {
     field: "Soft Skills",
     skills: [
@@ -20,7 +27,7 @@ const softskills = {
 }
 
 export const SkillsEn =[
-    frameworks, toolsplatforms,softskills
+    frameworks, toolsplatforms, security, softskills
 
 
 ]
